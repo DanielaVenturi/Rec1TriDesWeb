@@ -1,5 +1,7 @@
 <script setup>
+import MButton from './MButton.vue'
 
+import CartCheck from 'vue-material-design-icons/CartCheck.vue'
 </script>
 
 <template>
@@ -9,10 +11,14 @@
       <img src="pngegg.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
       Dani.Chaveirinho 2.0 Plus
       <div class="container-fluid">
-    <a class="navbar-brand" href="#">Home</a>
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
+    
+  
+    <mb-button @click="mostrar = true"><cart-check /></mb-button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
