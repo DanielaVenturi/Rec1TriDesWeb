@@ -1,7 +1,6 @@
 <script setup>
 import MButton from './MButton.vue'
 
-import CartCheck from 'vue-material-design-icons/CartCheck.vue'
 </script>
 
 <template>
@@ -18,7 +17,7 @@ import CartCheck from 'vue-material-design-icons/CartCheck.vue'
     
     
   
-    <mb-button @click="mostrar = true"><cart-check /></mb-button>
+    
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -38,6 +37,8 @@ import CartCheck from 'vue-material-design-icons/CartCheck.vue'
     
   </div>
 </nav>
+
+
 </template>
 
 <style scoped>
